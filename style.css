@@ -1,0 +1,81 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.container {
+    background-color: #222242;
+    height: 100vh;
+    width: 100%;
+    text-align: center;
+    position: absolute;
+}
+
+.wrapper {
+    position: relative;
+    top: 30%;
+}
+
+.timer {
+    background-color: rgb(25, 80, 143);
+    position: relative;
+    color: white;
+    display: inline-block;
+    margin-bottom: 50px;
+    font-size: 20px;
+    height: 80px;
+    width: 200px;
+    padding-top: 50px;
+    border-radius: 120px;
+}
+
+.btn-start {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: grey;
+    color: rgb(218, 230, 237);
+    margin-right: 5px;
+}
+
+.btn-stop {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(209, 16, 16);
+    color: rgb(20, 198, 225);
+    margin-right: 5px;
+}
+
+.btn-Reset {
+    width: 80px;
+    height: 30px;
+    font-size: 20px;
+    font-weight: 20px;
+    border-radius: 5px;
+    border: none;
+    background-color: rgb(16, 209, 122);
+    color: rgb(26, 29, 122);
+}
+
+.btn-start:hover {
+    background-color: rgb(16, 237, 45);
+    color: white;
+}
+
+.btn-stop:hover {
+    background-color: rgb(16, 237, 45);
+    color: white;
+}
+
+.btn-Reset:hover {
+    background-color: rgb(16, 237, 45);
+    color: white;
+}
