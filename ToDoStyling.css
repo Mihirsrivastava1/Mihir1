@@ -1,0 +1,82 @@
+body {
+    background-color: rgb(14, 13, 13);
+    text-align: center;
+    padding: 20px;
+}
+
+.styling {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: rgb(16, 217, 16);
+    font-size: 40px;
+}
+
+h1 {
+    color: white;
+    font-size: 40px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.inputDiv {
+    padding-left: 40px;
+}
+
+.inputDiv .input {
+    border-radius: 20px;
+    outline: none;
+    width: 350px;
+    height: 30px;
+    margin: 1px;
+    border: none;
+    padding: 10px;
+    font-size: 20px;
+}
+
+.inputDiv .add {
+    height: 55px;
+    width: 80px;
+    border-radius: 20px;
+    font-size: 20px;
+    outline: none;
+}
+
+.inputDiv .add:hover {
+    background-color: rgb(16, 217, 16);
+}
+
+.container {
+    padding: 10px;
+}
+
+.item {
+    padding: 10px;
+    height: 10px;
+    box-sizing: content-box;
+}
+
+.item_input {
+    border: none;
+    color: white;
+    background-color: rgb(14, 13, 13);
+    height: 30px;
+    width: 250px;
+    font-size: 25px;
+    outline: none;
+}
+
+.edit {
+    border: none;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    height: 20px;
+    font-size: 20px;
+    color: rgb(23, 188, 23);
+}
+
+.remove {
+    border: none;
+    background-color: rgb(14, 13, 13);
+    color: white;
+    height: 20px;
+    font-size: 20px;
+    color: rgb(236, 44, 11);
+}
